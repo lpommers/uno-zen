@@ -61,6 +61,8 @@
 
 .post {
   > p {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
     > img {
       width: 100%;
       margin: 1.5rem auto;
@@ -80,7 +82,7 @@
   &.description {
     margin-bottom: 1rem;
 
-    font-size: .9em;
+    font-size: 1em;
 
     color: $gray-dark;
   }

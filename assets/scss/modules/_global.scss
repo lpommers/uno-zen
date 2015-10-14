@@ -5,7 +5,7 @@
 html {
   height: 100%;
   max-height: 100%;
-  
+
   &.expanded {
     overflow-y: hidden;
   }
@@ -163,7 +163,7 @@ pre {
 
   word-wrap: break-word;
 
-  color: $gray-dark;
+  color: $dark-blue;
   border: 1px solid #d9d9d9;
   border-radius: 3px;
 
@@ -171,13 +171,13 @@ pre {
     font-family: $code-font;
     font-size: .85rem;
 
-    color: $gray-dark;
+    color: $dark-blue;
   }
 }
 
 code:hover,
 pre:hover {
-  color: $gray-darkest;
+  color: $dark-blue;
 }
 .block-heading {
   position: relative;

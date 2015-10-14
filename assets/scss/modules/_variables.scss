@@ -11,11 +11,12 @@ $gray-lightest         : #f8f8f8;
 $black                 : #000000;
 $white                 : #FFFFFF;
 $cyan                  : #006064;
-$red                   : #e74c3c;
+$blue                  : #22A7F0;
+$dark-blue             : #34495e;
 $purple                : #493252;
 $slate                 : #3d4260;
 
-$primary-color         : lighten($red, 5%);
+$primary-color         : lighten($blue, 5%);
 $secondary-color       : $gray-dark;
 
 $cover-secondary       : rgba(#5f2c82, .1);
@@ -32,7 +33,7 @@ $unit                  : 1rem;
 
 $sans-font             : 'Raleway', sans-serif;
 $serif-font            : 'Roboto Slab', serif;
-$code-font             : Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+$code-font             :  Menlo, Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
 $quote-font            : "freight-text-pro", Georgia, Cambria, "Times New Roman", Times, serif;
 
 $font-weight-thin      : 100;

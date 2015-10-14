@@ -60,4 +60,8 @@ img,
       color: $gray-lightest;
     }
   }
+
+  &:hover {
+    cursor: pointer;
+  }
 }
